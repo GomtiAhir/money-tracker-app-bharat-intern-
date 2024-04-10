@@ -19,7 +19,10 @@ app.use(bodyParser.json());
   db.on('error', ()=> console.log("Error in connecting to the Database"))
 db.once('open', () => console.log("Connected to Database"))
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2890faf30b18005963b5f2d3b7f1afdcdd23cc93
 app.post("/add", (req, res) => {
     var category_select = req.body.category_select;
     const amount_input = req.body.amount_input;
