@@ -30,6 +30,8 @@ h1,h2{
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 5px;
 }
 .expenses-list{
   margin: 20px;

@@ -19,9 +19,6 @@ app.use(bodyParser.json());
   db.on('error', ()=> console.log("Error in connecting to the Database"))
 db.once('open', () => console.log("Connected to Database"))
 
-//   .then(() => console.log("Connected to MongoDB"))
-//   .catch((err) => console.log(err));
-
 
 app.post("/add", (req, res) => {
     var category_select = req.body.category_select;
